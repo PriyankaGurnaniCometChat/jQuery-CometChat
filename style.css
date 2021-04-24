@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+/* main container */
+#main_container{
+    background-color: #03A9F4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#main_container button{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#main_container button:hover{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid red;
+    color: red;
+}
+
+/* cometchat */
+#cometchat{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
