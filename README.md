@@ -18,7 +18,7 @@ This demo uses:
 ## Running the demo
 To run the demo follow these steps:
 * Clone this repo ``git clone https://github.com/EBEREGIT/jQuery-CometChat/``
-* Replace the **firebase** and **CometChat** configuration in the ``init.js`` file with your own configurarion
+* Replace the **firebase** and **CometChat** configuration in the ``init.js`` and ``index.js`` file with your own configurarion
 * Load the ``login.html`` file in a browser
 * Login/Create a user
 * You can now send and recieve messages
